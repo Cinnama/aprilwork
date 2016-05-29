@@ -1,0 +1,21 @@
+<h1>New Post</h1>
+
+<%= render partial: 'form', locals: {post: @post} %>
+
+
+<%= link_to 'Back', posts_path %>
+
+
+<!-- 
+
+< %= render 'form', locals: {post: @post} %>
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+                   ignored, because first arg to render is a String 
+def render(arg)
+  if arg.is_a?(String)
+    do something
+  elsif arg.is_a?(Hash)
+    do someotmss
+  end
+end
+-->

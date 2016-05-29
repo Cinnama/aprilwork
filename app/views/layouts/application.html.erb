@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		  <title>Aprilwork</title>
+		  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+		  <%= csrf_meta_tags %>
+
+		  <link href='https://fonts.googleapis.com/css?family=Raleway:400,200italic' rel='stylesheet' type='text/css'>
+	</head>
+
+
+	<body>
+		<header>
+			
+			<nav class="mainnav">
+				<div id="mySidenav" class="sidenav">
+	  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  				<a href="#">Home</a>
+	  				<a href="#">Cuba</a>
+	  				<a href="#">Kenya</a>
+	 				<a href="#">Storytelling</a>
+				</div>
+
+					<div id="main">
+						<span style="font-size:30px;cursor:pointer" onclick="openNav()"> ☰ open</span>
+					</div>	
+			</nav>	
+			
+
+			<section id="landdescription">
+
+				<div id="landdescrip" class="landescription">
+					<h1>In Reach of Nirvana</h1>
+					<h2>Journeying through life, I embarked on a life-long mission of self-empowerment and being of service to the world. In effort to share aspects of my life, I've created this to document my personal journey of self-realisation capturing my steps towards creating innovative products that alleviates human consciousness on this magnificent planet.</h2>
+				</div>
+			</section>
+
+		</header>
+
+	    <section id="section-one">
+	       <div id="descript4" class="container">
+	          <%= yield %>
+
+	      </div>
+	    </section>
+
+
+	     <section id="section-three">
+	        <div id="descript3" class"container">
+	          <p>
+	          
+	          </p>
+
+	      </div>
+	    </section>
+
+
+	       <script src="Navigationbar.js"></script>
+	</body>
+</html>
+
+	<!-- <div id="main-nav" class="nav">
+			<nav class="mainnav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+				<li class="leftnav"><a href="#">Home</li>
+				<li class="leftnav"><a href="#">Cuba</li>
+				<li class="leftnav"><a href="#">Kenya</li>
+				<li class="leftnav"><a href="#">Nigeria</li>
+				<li class="leftnav"><a href="#">Storytelling</li>
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ open</span>
+			</nav>
+		</div>
+
+

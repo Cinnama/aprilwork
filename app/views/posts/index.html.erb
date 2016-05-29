@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<!-- <h1>Listing Posts</h1>
+ -->
+<%= render partial: @posts %>
+
+
+
+<br>
+
+<%= link_to 'New Post', new_post_path %>
+
+
+  <% if user_signed_in? %>
+    hello <%= current_user.name %>
+
+  <% else %>
+    twitter <%= link_to 'Twitter Login', "users/auth/twitter" %>
+
+
+  <% end %>
+

@@ -1,0 +1,63 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+h1 {
+	font-family: georgia;
+	color: white;
+	font-size: 50px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding-top: 115px;
+	text-align: left;
+	color: white;
+	padding: 120px 0 20px 60px;
+	letter-spacing: .10em;
+
+}
+
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: lighter;
+    letter-spacing: 6px;
+    padding: 50px 280px 30px 60px;
+    color: white;
+    line-height: normal;
+}
+
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	padding: 0 60px 0 60px;
+	line-height: normal;
+}
+
+header, body {
+	background-color: white;
+}
+
+.field {
+	border: 2px, white;
+	padding: 10px;
+	font-family: garamond;
+	font-size: 20px;
+}
+
+.actions {
+	background-color:green;
+}
+
+#post_title {
+	border: 4px, black;
+}
+
+#post_body {
+	border: 10px, black;
+}
+
