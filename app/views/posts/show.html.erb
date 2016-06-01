@@ -2,6 +2,8 @@
 
 <%= render partial: "post", locals: { post: @post.title } %>
 
+<%= @post.title %>
+<img src="<%= @post.image %>">
 <%= simple_format @post.body %>
 
 
